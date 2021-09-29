@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Crear usuario</title>
+    <meta charset="UTF-8">
+</head>
+
+<body>
+    <form action="registrardatos.php" method="post">
+        <p>
+            <label>Entre Cédula:</label> <br>
+            <input id="cedula" type="number"><br>
+        </p>
+
+        <p>
+            <label>Entre Nombre completo:</label> <br>
+            <input id="nombre" type="text"><br>
+        </p>
+        <p>
+            <label>Entre e-mail:</label> <br>
+            <input id="email" type="text"><br>
+        </p>
+        <p>
+            <label>Entre Usuario:</label> <br>
+            <input id="usuario" type="text"><br>
+        </p>
+        <p>
+            <label>Entre Contraseña:</label> <br>
+            <input id="contraseña" type="password"> <br>
+        </p>
+        <button id="adicionar" type="button">Adicionar a la tabla</button>
+
+        <br>
+
+        <a href="./index.html">Regresar</a>
+    </form>
+    <p>Elementos en la Tabla:
+    <div id="adicionados">0</div>
+    </p>
+    <table border="1">
+        <caption>Tabla de usuarios</caption>
+        <tr>
+            <th>Documento I</th>
+            <th>Nombre</th>
+            <th>e-mail</th>
+            <th>Usuario</th>
+            <th>Contraseña</th>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+
+    </table>
+
+
+
+</body>
+
+</html>
