@@ -1,4 +1,0 @@
-nomnbre apellido
-ccc n
-email
-equipo
